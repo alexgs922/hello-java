@@ -1,6 +1,6 @@
 package hello;
 
-public class GreetingTranslator {
+public class Main {
 	
 	public static String sayHelloIn(String lang) {
 		String hello;
