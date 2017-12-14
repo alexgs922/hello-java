@@ -15,5 +15,5 @@ public class GreetingController {
     	model.addAttribute("hello", greetingTranslator.sayHelloIn(lang));
         model.addAttribute("name", name);
         return "greeting";
-
+	}
 }
