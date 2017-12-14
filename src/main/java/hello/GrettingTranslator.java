@@ -11,6 +11,7 @@ public class GreetingTranslator {
 		} else {
 			hello = "no hablo tu idioma";
 		}
+		return hello;
 	}
 
 }
