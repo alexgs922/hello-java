@@ -7,8 +7,6 @@ notifications:
     on_failure: always
 deploy:
   provider: heroku
-  api_key:
-    secure: yUeCx3l5THtlxfehQZIU+bZaLTp5Fj6BuujUGPfvzeG7I0C79RuLXuIyU0V5J27JD5okvmfqbFepKg5OawA3phy1XEHt6VhUJ/DrAAIALul0pG/c5HiWyTSB2A/KXfiId4/N9TwCREGXjiORegIeKmEOOZEAzerumKsKmSsztZm90Jc4Ioh5IRt6RPyIna0MMNVzDoku80uxdB4RCGUI94kjREmPLRo8fPytBzvB4Mas3nS5TTEhTLNypXhYBemqjynoJ1vO9kcUqvBVeJu/wxD4X0QwcWFk7bq84PeWtPUUDbgk6iNJW3dCLnGG2++gv90p56hvGnOue36OfG8s8fHri9Gr1OXo4CBZT/cqZIdDMx19UU+OKZK85WA5CnIPRO9V14wEIFeSgOACjb6Ju3qeQLBhKOuBxYFvMpofmHWgkCvwlivRn0pWdwv6JncCoFGNXgaT7ChHCReLNKIafva/0ZRIHbF54lHyt7FoqomW6kFciK/4YOUnu/UlSe0dFfzERw4JjY5Hxd6qU+YhQWbc7sQepVBr205irXaabBhv2lhUoaE280+3eAAqe58VNqLGV++QkZZAsn2rNIdnZn6Z2SYhDinV7YCIKEF0PQSspymjPrToThvs0548nG9Nf+qUYOtWL1vro/pbny2cTXbJcYPeSHwVpO2zh05m8uo=
   app: practica-travis
   on:
     repo: alexgs922/hello-java
