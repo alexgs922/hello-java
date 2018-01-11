@@ -7,7 +7,6 @@ notifications:
     on_failure: always
 deploy:
   provider: heroku
-  api_key: hola
   app: practica-travis
   on:
     repo: alexgs922/hello-java
